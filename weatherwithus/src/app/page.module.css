@@ -1,0 +1,44 @@
+.Title{
+    font-size: 100px;
+    background: linear-gradient(90deg, #66D755, #2D1CE5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 400px;
+    font-family: var(--font-jersey-25), sans-serif;
+    
+}
+
+.Subtitle{
+    font-size: 30px;
+    color: gray;
+    font-family: var(--font-jersey-25), sans-serif;
+    margin-top: -30px;
+    margin-left: 630px;
+
+}
+
+.Button {
+    margin-top: 30px;
+    margin-left: 620px;
+    font-family: var(--font-jersey-25), sans-serif;
+    font-size: 20px;
+    background-color: #405BB4;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    position: absolute;
+}
+
+.Button2 {
+    position: fixed;
+    top: 322px;
+    margin-left: 770px;
+    font-family: var(--font-jersey-25), sans-serif;
+    font-size: 20px;
+    background-color: #405BB4;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
