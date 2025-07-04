@@ -3,6 +3,13 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar"
 import { AppSidebar } from "@/components/ui/app-sidebar";
+import { Jersey_25 } from "next/font/google"; 
+
+const jersey25 = Jersey_25({
+  weight: "400",
+  variable: "--font-jersey-25",
+  subsets: ["latin"],
+});
 
 
 const geistSans = Geist({
@@ -28,7 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${jersey25.variable} antialiased`}
       >
          <SidebarProvider>
       <AppSidebar />
@@ -37,7 +44,6 @@ export default function RootLayout({
         {children}
       </main>
     </SidebarProvider>
-        {children}
       </body>
     </html>
   );
