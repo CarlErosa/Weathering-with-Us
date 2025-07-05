@@ -1,3 +1,5 @@
+
+
 .Title{
     font-size: 100px;
     background: linear-gradient(90deg, #66D755, #2D1CE5);
@@ -7,6 +9,7 @@
     margin-top: 100px;
     margin-left: 400px;
     font-family: var(--font-jersey-25), sans-serif;
+    
     
 }
 
@@ -29,11 +32,11 @@
     border-radius: 10px;
     padding: 10px 20px;
     position: absolute;
+    box-shadow: 0px 4px 4px 2px black;
 }
 
 .Button2 {
-    position: fixed;
-    top: 322px;
+    margin-top: 30px;
     margin-left: 770px;
     font-family: var(--font-jersey-25), sans-serif;
     font-size: 20px;
@@ -41,4 +44,59 @@
     color: white;
     border-radius: 10px;
     padding: 10px 20px;
+     box-shadow: 0px 4px 4px 2px black;
+}
+
+.Text{
+    font-size: 30px;
+    font-family: var(--font-jersey-25), sans-serif;
+    color: #61C761;
+    margin-left: 440px;
+    margin-top: 160px;
+    text-shadow: 2px 2px 4px black;
+}
+
+.Text2 {
+    font-size: 30px;
+    font-family: var(--font-jersey-25), sans-serif;
+    color: black;
+    margin-left: 410px;
+    margin-top: -10px;
+    text-shadow: 2px 2px 4px gray;
+}
+
+.Text3 {
+    font-size: 30px;
+    font-family: var(--font-jersey-25), sans-serif;
+    color: #2D1CE5;
+    margin-left: 730px;
+    margin-top: -83px;
+    text-shadow: 2px 2px 4px black;
+}
+
+.Text4 {
+    font-size: 30px;
+    font-family: var(--font-jersey-25), sans-serif;
+    color: black;
+    margin-left: 715px;
+    margin-top: -10px;
+    text-shadow: 2px 2px 4px gray;
+}
+
+.Text5 {
+    font-size: 30px;
+    font-family: var(--font-jersey-25), sans-serif;
+    color: #61C761;
+    margin-left: 1020px;
+    margin-top: -83px;
+    text-shadow: 2px 2px 4px black;
+}
+
+.Text6 {
+    font-size: 30px;
+    font-family: var(--font-jersey-25), sans-serif;
+    color: black;
+    margin-left: 1005px;
+    margin-top: -10px;
+    text-shadow: 2px 2px 4px gray;
 }
